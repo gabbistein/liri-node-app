@@ -5,7 +5,7 @@ var keys = require("./keys.js");
 var fs = require("fs");
 
 // making sure you have what you need
-var music = require("node-spotify-api");
+var spotify = require("node-spotify-api");
 var spotify = new Spotify(keys.spotify);
 var bands = require("bands-in-town");
 var request = require("request");
@@ -14,9 +14,6 @@ var omdb = require("omdb-api");
 // this keeps track of your input, [2] is your command
 var userCommand = process.argv[2];
 var userInput = process.argv.splice(3).join(" ");
-
-// your song or movie title is stored here
-var title = "";
 
 // url built for your movie choice
 var queryURL;
