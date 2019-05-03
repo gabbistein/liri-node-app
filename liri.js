@@ -119,10 +119,6 @@ function movieThis(userInput) {
     });
 }
 
-function tryThis() {
-
-}
-
 // DO WHAT IT SAYS (by it we mean random.txt)
 function doThis() {
     fs.readFile("random.txt", "utf8", function (error, data) {
