@@ -30,5 +30,5 @@ To use Liri, access the liri.js file through your terminal window. Using node, e
 
 ### Creative Process
 Liri was created using node.js and utilizes the Spotify, Bands In Town, and OMDB APIs. As a result, Liri has access to an enormous amount of data. I hope you have fun learning with Liri!
-  
- #### Please click *here* for a short demo of the app in action. Thanks for using Liri!
+
+### Please click [*here*](https://drive.google.com/file/d/1kqtpEQ5L5b-0-tlb-uMGH96QcS4ApfPj/view?usp=sharing) for a short demo of the app in action. Thanks for using Liri!
